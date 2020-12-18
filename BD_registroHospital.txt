@@ -1,0 +1,21 @@
+CREATE DATABASE TABLAREGISTRO2;
+USE TABLAREGISTRO2;
+
+CREATE TABLE Registro (
+RAU int(100) NOT NULL AUTO_INCREMENT,
+EDAD int(100) NOT NULL,
+gestaciones int(10) NOT NULL,
+Control  int(100) NOT NULL,
+FUR varchar(100) NOT NULL,
+Cirugias  varchar(100) NOT NULL,
+Patoligias  varchar(100) NOT NULL,
+Alergias varchar(100) NOT NULL,
+Examenes varchar(100) NOT NULL,
+ACO varchar(100) NOT NULL,
+gestacion varchar(100) NOT NULL,
+Matrona varchar(100) NOT NULL,
+Ginecologico varchar(100) NOT NULL,
+Tratamiento varchar(100) NOT NULL,
+PRIMARY KEY (RAU)
+)
+
